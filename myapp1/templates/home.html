@@ -1,1 +1,8 @@
-<h1>this is a home page</h1>
+{% for person in p%}
+<p>{{person.name}}</p>
+<p>{{person.age}}</p>
+<p>{{person.description}}
+ {% endfor %}
+
+
+
